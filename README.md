@@ -1,27 +1,76 @@
-# TaskManagerAngular
+<h1 style="font-weight: bold;">💻 Task Manager Angular</h1>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.7.
+<p>
+    <b>This project is a fancy, modern and intuitive 'to do app' with angular. It allows you to CRUD the tasks and mark as important or completed, and also filter in many ways.</b>
+</p>
 
-## Development server
+<p>
+     <a href="https://task-manager-angular-three.vercel.app">📱 Visit this Project</a>
+</p>
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+<h2 id="layout">🎨 Layout</h2>
 
-## Code scaffolding
+<p>
+    <img src="https://i.ibb.co/B2TzXJf/to-do-app.png" alt="Image Example" width="800px">
+</p>
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+<h2 id="technologies">💻 Technologies</h2>
 
-## Build
+- HTML
+- CSS
+- JavaScript
+- Angular
+- Typescript
+- Json-Server
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+<h2 id="skills">💻 Skills </h2>
 
-## Running unit tests
+- Sharing Data and Emitting Events Between Components
+- Http Client
+- Observables
+- Date Pipes
+- Array Data Structure
+- Hard Coded CSS for a Modern and Beautiful UI
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+<h2 id="started">🚀 Getting started</h2>
 
-## Running end-to-end tests
+<h3>Prerequisites</h3>
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+- [NodeJS](https://github.com/)
+- [Git 2](https://github.com)
+- [Angular](https://angular.io/)
 
-## Further help
+<h3>Cloning</h3>
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+How to clone your project
+
+```bash
+git clone github.com/gustavoestevesr/marketplace-angular
+```
+
+<h3>Starting</h3>
+
+How to start your project
+
+```bash
+cd marketplace-angular
+npm install
+```
+
+<h3>Running</h3>
+
+How to run your project
+
+```bash
+Run ng serve for a dev server.
+Run npm run server for a back end server.
+Navigate to http://localhost:4200/.
+The application will automatically reload if you change any of the source files.
+```
+
+<h2 id="contribute">📫 Contribute</h2>
+
+1. `git clone https://github.com/gustavoestevesr/task-manager-angular`
+2. `git checkout -b feature/NAME`
+3. Follow commit patterns
+4. Open a Pull Request explaining the problem solved or feature made, if exists, append screenshot of visual modifications and wait for the review!
