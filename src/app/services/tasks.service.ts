@@ -1,14 +1,17 @@
 import { HttpClient } from '@angular/common/http';
-import { Injectable } from '@angular/core';
+import { EventEmitter, Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 import { Task } from '../models/Task.model';
+import { SidebarEnum } from '../enums/SidebarEnum';
 
 
 @Injectable({
   providedIn: 'root'
 })
 export class TasksService {
-  private readonly apiUrl = 'http://localhost:3000/tasks';
+  private readonly apiUrl: string = 'http://localhost:3000/tasks';
+  searchEmitter: EventEmitter<string> = new EventEmitter<string>();
+  activatedLinkEmitter: EventEmitter<SidebarEnum> = new EventEmitter<SidebarEnum>();
 
   constructor(private http: HttpClient) { }
 
@@ -17,12 +20,11 @@ export class TasksService {
   }
 
   updateTask(newTask: Task): Observable<any> {
-    console.warn(newTask)
     return this.http.put(this.apiUrl + `/${newTask.id}`, newTask);
   }
 
-  deleteTask(id: string): Observable<any> {
-    return this.http.delete(this.apiUrl)
+  deleteTask(task: Task): Observable<any> {
+    return this.http.delete(this.apiUrl  + `/${task.id}`)
   }
 
   getAllTasks(): Observable<any> {

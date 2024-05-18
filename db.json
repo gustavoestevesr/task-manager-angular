@@ -1,16 +1,38 @@
 {
   "tasks": [
     {
-      "id": "8968",
-      "title": "teste",
-      "description": "teste",
-      "completed": false,
+      "id": "e1e2",
+      "title": "improve the knowledge in angular",
+      "disabled": true,
+      "completed": true,
+      "important": true
+    },
+    {
+      "id": "0420",
+      "title": "sharing data between components by services",
+      "disabled": true,
+      "completed": true,
       "important": false
     },
     {
-      "id": "a273",
-      "title": "teste 2",
-      "completed": false,
+      "id": "897a",
+      "title": "emitting events",
+      "disabled": true,
+      "completed": true,
+      "important": false
+    },
+    {
+      "id": "7182",
+      "title": "create a beautiful and modern to do app",
+      "disabled": true,
+      "completed": true,
+      "important": true
+    },
+    {
+      "id": "fa51",
+      "title": "use json-server as a simple back end to a CRUD requests",
+      "disabled": true,
+      "completed": true,
       "important": false
     }
   ]
